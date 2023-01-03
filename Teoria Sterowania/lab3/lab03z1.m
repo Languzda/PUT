@@ -20,7 +20,11 @@ k = -place(A, B, s)
 
 ob = ss(A, B, C, D);
 figure; step(ob);
+
+% tworzenie macierzy sprzeżenia od stanu
 A1 = A+B*k
+
+% wartości własne nowej macierzy sprzężenia od stanu
 xxxx = eig(A1)
 figure; step(ss(A1, B, C, D));
 % moj koment: udało się ustabilizować(widoczne na wykresie 2). Poprzednio

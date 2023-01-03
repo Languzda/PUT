@@ -1,0 +1,14 @@
+zad 1
+mx`` = -F_s - F_T + F
+
+F_s = kx^3
+F_T = cx'|x'|
+
+mx'' = -kx^3 -cx'|x'| + F
+
+x_1 = x	=>	x'_1 = x_2
+x_2 = x'	=> 	x'_2 = -k/m * x_1^3 - c/m*x_2|x_2| + (1/m)*F 
+			y = x_1
+
+V(x) = E_k + E_p
+energia kinetyczna E_k = 
